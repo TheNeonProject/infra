@@ -21,4 +21,3 @@ fargateProfiles:
       # scheduled onto Fargate:
       - namespace: kube-system
       - namespace: locker
-
