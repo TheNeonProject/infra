@@ -22,5 +22,5 @@ fargateProfiles:
       - namespace: kube-system
 
       # Only the coloqio production workloads will be scheduled onto Fargate:
-      - namespace: coloqio-frontend-prod
-      - namespace: coloqio-backend-prod
+      - namespace: coloqio-frontend-production
+      - namespace: coloqio-backend-production
